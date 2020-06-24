@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--全局配置-->
+    <!--<settings>-->
+        <!--<setting name="" value=""/>-->
+    <!--</settings>-->
+    <!--设置别名-->
+    <typeAliases>
+        <!--批量扫描别名-->
+        <package name="com.zg.po"></package>
+    </typeAliases>
+    <!--配置分页插件-->
+    <!--<plugins>-->
+        <!--<plugin interceptor="com.github.pagehelper.PageHelper">-->
+            <!--<property name="dialect" value="mysql"/>-->
+        <!--</plugin>-->
+    <!--</plugins>-->
+</configuration>

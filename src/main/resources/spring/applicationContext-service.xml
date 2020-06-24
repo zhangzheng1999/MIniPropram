@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="itemsService" class="com.zg.service.impl.ItemsServiceImpl"></bean>
+    <bean id="userService" class="com.zg.service.impl.UserServiceImpl"></bean>
+    <bean id="dateConverter" class="com.zg.controller.converter.DateConverter"></bean>
+    <!--<bean id="socketHandshakeInterceptor" class="com.zg.socket.SocketHandshakeInterceptor"></bean>-->
+</beans>
